@@ -2,8 +2,13 @@
 repositories:
   - name: myhelm
     url: git+https://github.com/cipto-hd/helm@nginx?ref=main
+
 releases:
 
   - name: nginx
     chart: myhelm/nginx
-    installed: false
+    installed: true
+
+  - name: microbot
+    chart: ./microbot
+    installed: true
