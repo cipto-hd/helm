@@ -6,4 +6,4 @@ releases:
 
   - name: nginx
     chart: myhelm/nginx
-    installed: true
+    installed: false
